@@ -1,5 +1,8 @@
 import {useEffect, useState} from 'react';
-
+//Function for creating the 6 digit random numbers
+var button = 
+document.getElementById("Submit-btn")
+button.addEventListener("click",useEffect);
 const index = () => {
   const [num, setNum] = useState(0);
 
